@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+#cart{
+    width: 30%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 20px;
+    display:;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.image img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cart{
+    
+}
+.btn{
+    margin-top: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+}
+.btn .follow{
+    color: white;
+    background-color: blue;
+    padding: 10px 17px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.btn .unfollow{
+    color:black;
+    background-color:#dadafa;
+    
+    padding: 10px 17px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
